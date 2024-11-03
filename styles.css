@@ -16,6 +16,7 @@ body {
   position: relative;
 }
 
+
 .background-overlay {
   position: absolute;
   top: 0;
@@ -27,21 +28,22 @@ body {
   z-index: 1;
 }
 
+/* Contenedor principal */
 .container {
   width: 100%;
   max-width: 700px;
-  padding: 30px;
-  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
   border-radius: 12px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 2;
 }
 
-/* Logo y encabezado */
+/* Logo pene */
 .header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .logo {
@@ -51,7 +53,7 @@ body {
 }
 
 .title {
-  font-size: 28px;
+  font-size: 26px;
   color: #4a90e2;
   font-weight: 700;
 }
@@ -62,15 +64,14 @@ body {
   margin-top: 5px;
 }
 
-/* Estilo del iframe */
 iframe {
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   border: none;
   border-radius: 8px;
+  background-color: transparent;
 }
 
-/* Efecto de sombra en el iframe */
 iframe:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -78,11 +79,11 @@ iframe:hover {
 /* Estilos para pantallas pequeñas */
 @media (max-width: 768px) {
   .container {
-    padding: 20px;
+    padding: 15px;
   }
 
   .title {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .subtitle {
